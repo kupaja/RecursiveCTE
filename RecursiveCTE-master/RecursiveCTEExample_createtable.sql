@@ -1,3 +1,4 @@
+use TestDB
 create table empl(
 	empid int primary key,
 	mgrid int,

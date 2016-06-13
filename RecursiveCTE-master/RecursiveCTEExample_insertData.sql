@@ -1,4 +1,5 @@
 -- Inserting sample data
+use testdb
 
 insert into empl values(100,200,'pankaj','patel')
 insert into empl values(101,200,'kuntal','patel')

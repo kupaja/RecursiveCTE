@@ -1,6 +1,7 @@
 -- Find Employee reporting structure
-
-with FindEmplReportingStruct AS
+use TestDB
+go
+;with FindEmplReportingStruct AS
 (
 select empid,mgrid,firstname,lastname,0 as distance from empl where empid=100
 
